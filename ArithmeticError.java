@@ -1,4 +1,4 @@
-public class artthmeticerror {
+public class ArithmeticError {
     public static void main(String[] args) {
         int a = 10;
         int c = 0;

@@ -15,7 +15,7 @@ public class CountDigits {
         int count = 0;
         int n = Math.abs(num);
 
-        while (n > 0) {
+        while (n > 0) {                             
             n /= 10;
             count++;
         }
