@@ -1,4 +1,3 @@
-// Parent class
 class Bank {
 
     void interestRate() {
@@ -6,7 +5,7 @@ class Bank {
     }
 }
 
-// Child class SBI
+
 class SBI extends Bank {
 
     @Override
@@ -15,7 +14,6 @@ class SBI extends Bank {
     }
 }
 
-// Child class HDFC
 class HDFC extends Bank {
 
     @Override
@@ -24,7 +22,6 @@ class HDFC extends Bank {
     }
 }
 
-// Child class ICICI
 class ICICI extends Bank {
 
     @Override
@@ -33,12 +30,10 @@ class ICICI extends Bank {
     }
 }
 
-// Main class
 public class BankDemo {
 
     public static void main(String[] args) {
 
-        // Parent class reference and child class objects
         Bank b;
 
         b = new SBI();
